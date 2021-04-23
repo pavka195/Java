@@ -1,0 +1,16 @@
+package synergy.lesson06.wild;
+
+import synergy.lesson06.Animal;
+
+public class Lion extends Animal {
+
+    public Lion(String animal) {
+        super(animal);
+    }
+
+    @Override
+    public String toString() {
+        String voice = "рычать.";
+        return super.toString() + "дикое животное, он умеет " + voice;
+    }
+}
